@@ -7,7 +7,6 @@ const assertEqual = require('./assertEqual');
 
 // allItems: an array of strings that we need to look through
 // itemsToCount: an object specifying what to count
-
 const countOnly = (allItems, itemsToCount) => {
 
   const howMany = {};
@@ -24,6 +23,20 @@ const countOnly = (allItems, itemsToCount) => {
   console.log(howMany);
   return howMany;
 };
+
+// for (const name in itemsToCount) {
+//   if (itemsToCount[name]) {
+//     howMany[name] = 0;
+//   }
+
+//console.log(howMany);
+
+// for (const item of allItems) {
+//   if (howMany.hasOwnProperty(item)) {
+//     howMany[item] += 1;
+//   }
+
+// }
 
 
 
