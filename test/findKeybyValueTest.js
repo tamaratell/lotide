@@ -1,0 +1,22 @@
+const findKeyByValue = require('../findKeybyValue');
+const assert = require("chai").assert;
+
+describe("findKeyByValue", () => {
+  it("should scan the object and return the first key which contains the given value", () => {
+    const bestTVShowsByGenre = {
+      sci_fi: "The Expanse",
+      comedy: "Brooklyn Nine-Nine",
+      drama: "The Wire"
+    };
+    assert.strictEqual(findKeyByValue(bestTVShowsByGenre, "The Wire"), "drama");
+  });
+  it("should return undefined if no key with that given value is found", () => {
+    const bestTVShowsByGenre = {
+      sci_fi: "The Expanse",
+      comedy: "Brooklyn Nine-Nine",
+      drama: "The Wire"
+    };
+    assert.strictEqual(findKeyByValue(bestTVShowsByGenre, "That '70s Show"), undefined);
+  });
+});
+

@@ -1,12 +1,6 @@
 const countLetters = require('../countLetters');
 const assert = require("chai").assert;
 
-const testString = "butterfly";
-
-const result1 = countLetters(testString);
-
-
-
 describe("the function countLetters", () => {
   it("should return the number of letters in the string given as an argument to the function", () => {
     const testString = "butterfly";
