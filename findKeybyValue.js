@@ -18,6 +18,8 @@ const findKeyByValue = (obj, value) => {
 };
 
 
+module.exports = findKeyByValue;
+
 //TEST
 
 const bestTVShowsByGenre = {

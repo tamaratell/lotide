@@ -16,7 +16,7 @@ const findKey = (object, cb) => {
   return foundKey;
 };
 
-
+module.exports = findKey;
 
 
 //TEST

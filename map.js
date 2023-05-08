@@ -19,7 +19,7 @@ const map = (array, cb) => {
 
 };
 
-
+module.exports = map;
 
 
 //TEST
