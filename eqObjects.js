@@ -16,12 +16,4 @@ const eqObjects = (object1, object2) => {
 };
 
 
-// //TEST
-// const shirtObject = { color: "red", size: "medium" };
-// const anotherShirtObject = { size: "medium", color: "red" };
-// const longSleeveShirtObject = { size: "medium", color: "red", sleeveLength: "long" };
-
-// //assertEqual(eqObjects(shirtObject, anotherShirtObject), true); // => true
-// //assertEqual(eqObjects(shirtObject, longSleeveShirtObject), false); // => false
-
 module.exports = eqObjects;

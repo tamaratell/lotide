@@ -9,7 +9,3 @@ const assertObjectsEqual = (object1, object2) => {
   }
   console.log(`✅✅✅ Assertion Passed: ${inspect(object1)} === ${inspect(object2)}`);
 };
-
-
-//TEST
-assertObjectsEqual({ color: "red", size: "m" }, { color: "red", size: "m" });
