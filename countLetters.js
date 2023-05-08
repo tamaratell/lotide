@@ -33,13 +33,6 @@ const countLetters = (someString) => {
   return howMany;
 };
 
-const testString = "butterfly";
 
-const result1 = countLetters(testString);
-
-assertEqual(result1["b"], 1);
-assertEqual(result1["w"], undefined);
-assertEqual(result1["t"], 2);
-assertEqual(result1["g"], undefined);
 
 module.exports = countLetters;
