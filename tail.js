@@ -1,6 +1,3 @@
-const assertEqual = require('./assertEqual');
-const getHead = require('./head');
-
 //FUNCTION IMPLEMENTATION
 
 const getTail = (arr) => {
@@ -8,7 +5,4 @@ const getTail = (arr) => {
   return tail;
 };
 
-// Test Case: Check the original array 
-const words = ["Yo Yo", "Lighthouse", "Labs"];
-getTail(words);
-assertEqual(words.length, 3); 
+module.exports = getTail;
